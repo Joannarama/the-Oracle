@@ -1,3 +1,31 @@
+
+/* background image */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}    
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
 body {
-    background-image:no-repeat left top  url(../images/background-image);
+    background:  url(../images/background-image.JPG) no-repeat center;
+    background-size: cover;
+
+}
+
+/* header text  */
+
+.header-text h1 {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 600;
+    color: #fbfcfd;
+    font-size: 80px;
+    text-align: left;
+    margin: 10px 50px 10px 50px;
 }
