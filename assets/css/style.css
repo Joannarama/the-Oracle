@@ -21,29 +21,24 @@ body {
 
 /* header text  */
 
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0 20px;
+}
+
 .header-text h1 {
     font-family: 'IBM Plex Serif', serif;
     font-weight: 600;
     color: #fbfcfd;
-    font-size: 80px;
+    font-size: 60px;
     text-align: left;
-    margin: 10px 50px 10px 50px;
+    margin: 0px;
 }
-
-.header {
-        display: flex;
-        align-items: flex-start;
-        flex-direction: row;
-        justify-content: space-around;
-}
-
-
 
 /* how to play button  */
-
-.pink-button {
-    padding-top: 60px;
-}
 
 .how-to-play {
     text-decoration: none;
@@ -62,8 +57,49 @@ body {
 /* game area  */
 
 .game-area {
-    display: flex;
-        align-items: flex-start;
-        flex-direction: row;
-        justify-content: space-around;
+    display:flex;
+    flex-direction: column;
+}
+
+.game-area .fortune{
+    display: flex;   
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.game-area div img {
+    height: 100%;
+    width: auto;
+}
+
+.game-area .forms label {
+    color: #fff;
+    display: block;
+}
+
+@media (min-width:800px) {
+
+}
+
+
+@media (min-width:1024px) {
+
+}
+
+@media (min-width: 1140px) {
+    .header {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .game-area {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
