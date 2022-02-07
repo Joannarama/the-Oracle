@@ -7,12 +7,6 @@
     border: none;
 }    
 
-html, body {
-    height: 100%;
-    width: 100%;
-}
-
-
 body {
     background:  url(../images/background-image.JPG) no-repeat center;
     background-size: cover;
@@ -24,7 +18,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     padding: 40px 0 20px;
 }
@@ -33,7 +27,7 @@ body {
     font-family: 'IBM Plex Serif', serif;
     font-weight: 600;
     color: #fbfcfd;
-    font-size: 60px;
+    font-size: 30px;
     text-align: left;
     margin: 0px;
 }
@@ -64,19 +58,24 @@ body {
 .game-area .fortune{
     display: flex;   
     align-items: stretch;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    height: 300px;
 }
 
 .game-area div img {
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
 }
 
 .game-area .forms label {
     color: #fff;
     display: block;
+}
+
+.game-area .forms input {
+    width: 350px;
+    height: 25px;
+    border-radius: 20px;
 }
 
 @media (min-width:800px) {
@@ -94,12 +93,33 @@ body {
         margin: 0 auto;
         padding-left: 15px;
         padding-right: 15px;
+        flex-direction: row;
     }
 
+    .header-text h1 {
+        font-size: 60px;
+    }    
+    
     .game-area {
         max-width: 1140px;
         margin: 0 auto;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .game-area .fortune {
+        flex-direction: row;
+        height: 300px;
+    }
+
+    .game-area div img {
+        height: 100%;
+        width: auto;
+    }
+
+    .game-area .forms input {
+        width: 350px;
+        height: 25px;
+        border-radius: 20px;
     }
 }
