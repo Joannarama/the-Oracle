@@ -41,16 +41,29 @@ body {
 
 /* how to play button  */
 
+.pink-button {
+    padding-top: 60px;
+}
+
 .how-to-play {
     text-decoration: none;
-    padding: 7px 15px;
-    font-family: 'IBM Plex Serif', serif;
-    font-size: 16px;
-    font-weight: 400;
-    background: #e748a5;
+    padding: 7px 20px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: 500;
+    background: #f14f48;
     color: #fbfcfd;
-    border-radius: 10px;
+    border-radius: 30px;
     display: inline-block;
     text-align: center;
-    width: 100px;
+    width: 130px;
+}
+
+/* game area  */
+
+.game-area {
+    display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-around;
 }
