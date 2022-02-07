@@ -30,6 +30,15 @@ body {
     margin: 10px 50px 10px 50px;
 }
 
+.header {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-around;
+}
+
+
+
 /* how to play button  */
 
 .how-to-play {
