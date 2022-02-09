@@ -40,7 +40,7 @@ body {
     font-family: 'Lora', serif;
     font-size: 20px;
     font-weight: 500;
-    background: #f14f48;
+    background: #8f1585;
     color: #fbfcfd;
     border-radius: 30px;
     display: inline-block;
@@ -84,15 +84,57 @@ body {
 
 .game-area .forms input {
     width: 350px;
-    height: 25px;
     border-radius: 20px;
+    height: 35px;
+}
+ .game-area .forms button {
+    text-decoration: none;
+    padding: 5px 15px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: 500;
+    background: #1a438b;
+    color: #fbfcfd;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    margin-left: 30px;
+ }
+
+/* Button area */
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px
+
 }
 
-@media (min-width:800px) {
-
+.button-container button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 7px 20px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: 500;
+    background: #e03756;
+    color: #fbfcfd;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+    width: 260px;
+    margin-left: 30px;
+    
 }
 
 
+
+@media
 @media (min-width:1024px) {
 
 }
@@ -129,7 +171,7 @@ body {
 
     .game-area .forms input {
         width: 350px;
-        height: 25px;
+        height: 35px;
         border-radius: 20px;
     }
 }
