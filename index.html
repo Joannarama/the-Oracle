@@ -36,26 +36,27 @@
     
             <div>
                 <img class="crystal-ball" src="assets/images/crystal-ball.png" alt="crystal ball">
-                    <div id="answer">
-                        <p>Answer</p>
-                    </div>
+                <div id="answer">
+                    <p>Answer</p>
+                </div>
             </div>
         </div>
         <div class="forms">
-            <form>
+            <form onsubmit="event.preventDefault();">
                 <label>Ask of me, your questions three!</label>
                 <input type="text" id="question">
                 <button type="submit" id="ask">Ask</button>
             </form>
+            <div class="errors" id="question-error"></div>
         </div>
     </div>
 
 <!-- player buttons -->
     <div class="button-container" >
         <!-- this is a counter: 3, 2, 1 -->
-        <button type="button">Remaining Questions: 3</button> 
+        <button type="button" id="remaining-questions">Remaining Questions: 3</button> 
         <!-- play again to restart -->
-        <button type="button">Start Over!</button>
+        <button type="button" id="start-over">Start Over!</button>
         <!-- get your horoscope -->
         <button type="button"> Your Horoscope</button>
     </div>
