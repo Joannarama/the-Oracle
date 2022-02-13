@@ -48,6 +48,28 @@ body {
     width: 130px;
 }
 
+.rules {
+    width: 50%;
+    margin: 0 auto
+}
+
+.rules h2 {
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #2f77f5;
+    text-align: center;
+}
+
+.rules li {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fbfcfd;
+    padding-top: 15px;
+}
+
+
 /* game area  */
 
 .game-area {
@@ -78,6 +100,11 @@ body {
     text-align: center;
     font-family: 'IBM Plex Serif', serif;
     font-size: 25px;
+}
+
+#answer.final-horoscope {
+    color: #ffffff;
+    font-size: 18px;
 }
 
 
@@ -134,10 +161,11 @@ body {
  .errors {
      padding: 10px;
      border: dark-red;
-     background-color: lightcoral;
+     background-color: #eb4538;
      color: #fff;
-     
-     display:none;
+     width: 55%;
+     border-radius: 20px;
+     display: none;
  }
 
  .success {
@@ -145,8 +173,9 @@ body {
     border: dark-red;
     background-color: rgb(20, 117, 41);
     color: #fff;
-    
-    display:none;
+    width: 50%;
+    border-radius: 20px;
+    display: none;
 }
 /* Button area */
 

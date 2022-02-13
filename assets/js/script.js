@@ -59,6 +59,7 @@ askButton.addEventListener("click", function(){
     questionError.innerText = '';
     questionError.style.display = 'none';
     success.style.display = 'none';
+    ballResponse.classList.remove('final-horoscope');
 
     if (questionInput.value.length < 1) {
         // check we have a question
@@ -119,6 +120,7 @@ horoscope.addEventListener('click', function() {
   resetGame();
 
   ballResponse.innerText = horoscopeOptions[index];
+  ballResponse.classList.add('final-horoscope');
 
 });
 
