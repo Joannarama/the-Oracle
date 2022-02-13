@@ -41,6 +41,20 @@ let options = [
     "Not in this universe"
   ];
 
+let horoscopeOptions = [
+  "Be careful who you trust. Salt and sugar look the same.",
+  "Though the day will spring a lot of challenges, you will be up to it every single time. Your mind will be sharp and will run like an athlete taking part in a marathon. All you need is a little self-belief. You may experiment with the interiors of your house.",
+  "You are likely to be a little over-zealous and over-analytical today. You should not be too forceful or severe on others. This will help you save a few friendships and will make sure that your reputation remains intact.",
+  "You may stomp your feet all you like, but you're not going to get your way today. The days of 'me-myself' are over.",
+  "Today you are going to focus on enhancing your looks and appearances. Instead of trying to seek satisfaction from within yourself you will be flaunting your fine clothes, your hairstyles. A visit to a beauty parlour cannot be ruled out.",
+  "Finances are likely to be as still as water this week. However, when the transit of Mars takes place in your fifth house in the second half of the week, chances of incurring favourable results become high.",
+  "Venus and Mercury will take you to new professional heights. Not only this, your business may gain momentum and all the on-problems may end too, which can open the way for your growth.",
+  "The year's slow and steady movement towards optimism is going to kick up in the month of February 2022. The help of planets that were previously absent has gradually arrived to bring positivity into your life.",
+  "You are likely to be in a romantic mood today. You may just end up falling in love today. A difficult situation will bring out the competitive streak in you and spur you on to physical and mental excellence.",
+  "Stay cool, Manage Money Meticulously, Boss is Always right, Routine Habits for Health!",
+  "A comedy of errors is only funny in hindsight. Too much practicality is what ruined the world. Anything goes today, and having your hair groomed seems to be the best idea you have had in a long time.",
+];
+
 askButton.addEventListener("click", function(){
     questionError.innerText = '';
     questionError.style.display = 'none';
@@ -74,7 +88,7 @@ askButton.addEventListener("click", function(){
         }
 
         // get a random response
-        let index = getRandomQuestionIndex(0, options.length - 1);
+        let index = getRandomNumber(0, options.length - 1);
         ballResponse.innerText = options[index]
 
         // push question to the question container
@@ -99,9 +113,12 @@ horoscope.addEventListener('click', function() {
     return;
   }
 
-  //show horoscope
 
+  //show horoscope
+  let index = getRandomNumber(0, horoscopeOptions.length - 1);
   resetGame();
+
+  ballResponse.innerText = horoscopeOptions[index];
 
 });
 
@@ -141,7 +158,7 @@ function updateRemainingQuestions() {
   }
 }
 
-function getRandomQuestionIndex(min, max) {
+function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
 
