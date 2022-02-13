@@ -34,20 +34,22 @@
     
             </div>
     
-            <div>
+            <div class="crystal-ball-container">
                 <img class="crystal-ball" src="assets/images/crystal-ball.png" alt="crystal ball">
-                <div id="answer">
-                    <p>Answer</p>
-                </div>
+                <p id="answer"></p>
             </div>
         </div>
+
         <div class="forms">
             <form onsubmit="event.preventDefault();">
-                <label>Ask of me, your questions three!</label>
+                <label>Ask of me, your questions <span id="number-of-questions">three</span>!</label>
                 <input type="text" id="question">
                 <button type="submit" id="ask">Ask</button>
             </form>
-            <div class="errors" id="question-error"></div>
+            <div class="message-container">
+                <div class="errors" id="question-error"></div>
+                <div class="success" id="success"></div>
+            </div>
         </div>
     </div>
 
@@ -58,7 +60,7 @@
         <!-- play again to restart -->
         <button type="button" id="start-over">Start Over!</button>
         <!-- get your horoscope -->
-        <button type="button"> Your Horoscope</button>
+        <button type="button" id="horoscope" class="horoscope"> Your Horoscope</button>
     </div>
 
 

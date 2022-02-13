@@ -74,7 +74,9 @@ body {
 
 #answer {
     color: #fff;
+    width: 100%
 }
+
 .game-area .forms label {
     color: #fff;
     display: block;
@@ -88,6 +90,8 @@ body {
     width: 350px;
     border-radius: 20px;
     height: 35px;
+
+    /* add the styles for the text font here */
 }
  .game-area .forms button {
     text-decoration: none;
@@ -104,23 +108,35 @@ body {
     margin-left: 30px;
  }
 
+ .message-container {
+     height: 40px;
+     margin-top: 5px;
+ }
+
  .errors {
      padding: 10px;
      border: dark-red;
      background-color: lightcoral;
      color: #fff;
-     width: 300px;
-     margin-top:30px;
+     
      display:none;
  }
 
+ .success {
+    padding: 10px;
+    border: dark-red;
+    background-color: rgb(20, 117, 41);
+    color: #fff;
+    
+    display:none;
+}
 /* Button area */
 
 .button-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 60px
+    padding-top: 20px;
 
 }
 
@@ -132,7 +148,7 @@ body {
     text-decoration: none;
     padding: 7px 20px;
     font-family: 'Lora', serif;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 500;
     background: #e03756;
     color: #fbfcfd;
@@ -142,6 +158,10 @@ body {
     width: 260px;
     margin-left: 30px;
     
+}
+
+.button-container button.horoscope {
+    background: #666666;
 }
 
 
