@@ -73,9 +73,13 @@ body {
 }
 
 #answer {
-    color: #fff;
-    width: 100%
+    color: #031471;
+    width: 100%;
+    text-align: center;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 25px;
 }
+
 
 .game-area .forms label {
     color: #fff;
@@ -90,8 +94,22 @@ body {
     width: 350px;
     border-radius: 20px;
     height: 35px;
+    font-family: cursive;
+    padding: 0px 20px;
+    font-size: 18px;
+    color:#031471
 
     /* add the styles for the text font here */
+}
+
+.crystal-ball-container {
+    width: 320px;
+    background: url(../images/crystal-ball.png) no-repeat center center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-size: cover;
+
 }
  .game-area .forms button {
     text-decoration: none;
@@ -166,7 +184,7 @@ body {
 
 
 
-@media
+
 @media (min-width:1024px) {
 
 }
