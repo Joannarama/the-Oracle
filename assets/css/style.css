@@ -20,7 +20,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    padding: 40px 0 20px;
+    padding: 10px 0 10px;
 }
 
 .header-text h1 {
@@ -80,8 +80,13 @@ body {
 .game-area .fortune{
     display: flex;   
     align-items: stretch;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
+    height: 300px;
+}
+
+.fortune-teller {
+    display:none;
 }
 
 .game-area div img {
@@ -103,12 +108,15 @@ body {
 }
 
 #answer.final-horoscope {
-    color: #ffffff;
     font-size: 18px;
-    width: 75%;
+    width: 100%;
+    height: 100%;
     color: #031471;
     background-color: azure;
     border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;    
 }
 
 
@@ -139,7 +147,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center; 
-    background-size: cover;
+    background-size: contain;
 
 }
  .game-area .forms button {
@@ -163,17 +171,17 @@ body {
  }
 
  .errors {
-     padding: 10px;
+     padding: 5px;
      border: dark-red;
      background-color: #eb4538;
      color: #fff;
-     width: 55%;
+     width: 80%;
      border-radius: 20px;
      display: none;
  }
 
  .success {
-    padding: 10px;
+    padding: 5px;
     border: dark-red;
     background-color: rgb(20, 117, 41);
     color: #fff;
@@ -187,7 +195,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 20px;
+    /* padding-top: 10px; */
 
 }
 
@@ -199,7 +207,7 @@ body {
     text-decoration: none;
     padding: 7px 20px;
     font-family: 'Lora', serif;
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 500;
     background: #e03756;
     color: #fbfcfd;
@@ -208,6 +216,7 @@ body {
     text-align: center;
     width: 260px;
     margin-left: 30px;
+    margin-right: 20px;
     
 }
 
@@ -216,10 +225,85 @@ body {
 }
 
 
+/* @media (min-width:320px) {
+
+.game-area div img {
+    display:none;
+}
+ */
+
+ @media (min-width:768px) {
+
+    .game-area .fortune{
+        height: auto;
+    }
+    
+    .fortune-teller {
+        display:block;
+    }   
+
+    .game-area div img {
+        height: auto;
+        width: 240px;
+    }
+ }
+
+ @media (min-width:920px) {
+
+    .game-area div img {
+        height: auto;
+        width: 240px;
+    }
+
+
+    .button-container button {
+        font-size: 19px;
+    }
+
+ }
 
 
 @media (min-width:1024px) {
 
+    .header {
+        max-width: 1024x;
+        padding-right: 15px;
+        flex-direction: row;
+    }
+
+    .header-text h1 {
+        font-size: 60px;
+    }    
+    
+    .game-area {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .game-area .fortune {
+        height: 300px;
+    }
+
+    .game-area div img {
+        height: 100%;
+        width: auto;
+    }
+
+    .game-area .forms input {
+        width: 350px;
+        height: 35px;
+        border-radius: 20px;
+    }
+
+    .success {
+        padding: 10px;
+    }
+
+    .errors{
+        width: 60%;
+    }
 }
 
 @media (min-width: 1140px) {
@@ -256,5 +340,14 @@ body {
         width: 350px;
         height: 35px;
         border-radius: 20px;
+    }
+
+    .button-container {
+        padding-top: 10px;
+    }
+
+    .errors {
+        padding: 10px;
+        width: 55%
     }
 }
