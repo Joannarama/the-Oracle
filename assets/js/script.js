@@ -10,6 +10,7 @@ let questionError = document.getElementById('question-error');
 let questionContainer = new Array();
 
 let remainingQuestions = document.getElementById('remaining-questions');
+
 let numberOfQuestions = document.getElementById('number-of-questions');
 
 let startOver = document.getElementById('start-over');

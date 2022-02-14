@@ -105,6 +105,10 @@ body {
 #answer.final-horoscope {
     color: #ffffff;
     font-size: 18px;
+    width: 75%;
+    color: #031471;
+    background-color: azure;
+    border-radius: 10px;
 }
 
 
