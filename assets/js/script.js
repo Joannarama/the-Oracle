@@ -11,6 +11,8 @@ let questionContainer = new Array();
 
 let remainingQuestions = document.getElementById('remaining-questions');
 
+let totalLeft = document.getElementById('total-left');
+
 let numberOfQuestions = document.getElementById('number-of-questions');
 
 let startOver = document.getElementById('start-over');
@@ -144,7 +146,7 @@ function resetGame() {
 
 function updateRemainingQuestions() {
   let totalRemaining = 3 - questionContainer.length;
-  remainingQuestions.innerText = 'Remaining Questions: ' + totalRemaining;
+  totalLeft.innerText = totalRemaining;
 
   switch (totalRemaining) {
     case 2: 
