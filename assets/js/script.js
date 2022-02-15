@@ -7,9 +7,7 @@ let ballResponse = document.getElementById("answer");
 
 let questionError = document.getElementById('question-error');
 
-let questionContainer = new Array();
-
-let remainingQuestions = document.getElementById('remaining-questions');
+let questionContainer = [];
 
 let totalLeft = document.getElementById('total-left');
 
@@ -82,7 +80,7 @@ askButton.addEventListener("click", function(){
       // handle the answer for a question 
 
       // check if the question has been asked already
-        for(i=0; i < questionContainer.length; i++) {
+        for(let i=0; i < questionContainer.length; i++) {
             if (questionContainer[i] == questionInput.value) {
                 questionError.style.display = "block";
                 questionError.innerText = "The Oracle has already answered that question. Don't waste her time!"; 
@@ -93,11 +91,11 @@ askButton.addEventListener("click", function(){
 
         // get a random response
         let index = getRandomNumber(0, options.length - 1);
-        ballResponse.innerText = options[index]
+        ballResponse.innerText = options[index];
         ballResponse.style.display = 'inline';
 
         // push question to the question container
-        questionContainer.push(questionInput.value)
+        questionContainer.push(questionInput.value);
 
         updateRemainingQuestions();
         questionInput.value = '';
@@ -136,7 +134,7 @@ startOver.addEventListener('click', function() {
 
 
 function resetGame() {
-  questionContainer = new Array();
+  questionContainer = [];
   updateRemainingQuestions();
   questionInput.value = '';
   ballResponse.innerText = '';

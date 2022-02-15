@@ -326,7 +326,7 @@ form {
     }
 
     .button-container {
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
     }
 
     .button-container button {
@@ -345,7 +345,7 @@ form {
     }
 
     .header {
-        max-width: 1024x;
+        max-width: 1024px;
         padding-right: 15px;
         flex-direction: row;
         padding: 20px 0 40px;
