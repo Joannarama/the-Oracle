@@ -94,6 +94,7 @@ askButton.addEventListener("click", function(){
         // get a random response
         let index = getRandomNumber(0, options.length - 1);
         ballResponse.innerText = options[index]
+        ballResponse.style.display = 'inline';
 
         // push question to the question container
         questionContainer.push(questionInput.value)
@@ -124,6 +125,7 @@ horoscope.addEventListener('click', function() {
 
   ballResponse.innerText = horoscopeOptions[index];
   ballResponse.classList.add('final-horoscope');
+  ballResponse.style.display = 'flex';
 
 });
 
@@ -138,6 +140,7 @@ function resetGame() {
   updateRemainingQuestions();
   questionInput.value = '';
   ballResponse.innerText = '';
+  ballResponse.style.display = 'none';
   success.style.display = "none";
   questionError.style.display = "none";
   horoscope.style.background = "#666666";
