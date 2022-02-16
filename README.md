@@ -13,12 +13,12 @@ This is a fun, light-hearted interactive game for users of all ages intended to 
 
 ## Live Site
 
-[Quizanaughts](https://jbachtiger.github.io/ci-pp2-quizanaugh
+[The Obfuscating Oracle](https://joannarama.github.io/the-Oracle/index.html)
 
 ## Repository
-[https://github.com/Jbachtiger/ci-pp2-quizanaughts](https://github.com/Jbachtiger/ci-pp2-quizanaughts)
+[Github repository](https://github.com/Joannarama/the-Oracle)
 
-## Table of Contents
+## Table of Contentshttps://github.com/Joannarama/the-Oracle
 - [User Experience (UX)](#user-experience)
   - [User Stories](#user-stories)
 
@@ -52,73 +52,83 @@ This is a fun, light-hearted interactive game for users of all ages intended to 
 ## User Experience
 ### User Stories
 __Project Goals__
-- To engage individuals of any age to play the game
-- To provide light-hearted enjoyment and entertainment
-- To engage the individual with a simple concept that encourages them to keep playing
+  - To engage individuals of any age to play a fun and interactive game
+  - To provide light-hearted enjoyment and entertainment
+  - To engage the individual with a simple concept that encourages them to keep playing and coming back
 
 
 __First Time Visitor Goals__
-- As a first time visitor I want to quickly understand what the game is about
-- As a first time visitor I want to find out easily how a user plays the game
-- As a first time visitor I want the game steps to be simple and intuitive
-- As a first time visitor I want to be guided when I don't follow the game steps 
+  - As a first time visitor I want to quickly understand what the game is about
+  - As a first time visitor I want to find out easily how a user plays the game
+  - As a first time visitor I want the game steps to be simple and intuitive
+  - As a first time visitor I want to be guided to the correct path when I don't follow the game steps 
 
 
 __Website Owner Goals__
-- As a site owner, I want to create a website that is clear and clean in appearance, with a positive user experience 
-- As a site owner, I want the website to be intuitive and easy to follow
-- As a site owner, I want the players to have a positive and fun experience
-- As a site owner, I want the players to easily navigate the steps and resolve any errors they make
+  - As a site owner, I want to create a website that is clear and clean in appearance, with a positive user experience 
+  - As a site owner, I want the website to be intuitive and easy to follow
+  - As a site owner, I want the players to have a positive and fun experience
+  - As a site owner, I want the players to easily navigate the steps and resolve any errors they make quickly
 
 
  __Returning Visitors__
-- As a returning visitor I want to step right in and play the game immediately
+  - As a returning visitor I want to step right in and play the game again immediately
 
 
 ## Design
 ### Colour Scheme
-- The dark, night sky background evokes a sense of the mystical and supernatural, especially when juxtaposed with the images of the fortune teller and they crystal ball. 
-- The lighter shades of the buttons, text input box, error messages, fonts and imagery create contrast and improve visibility
-- the colours chosen for the elements are bright and fun
-- Opaity is intorduced to the background of the answer and horroscope text to improve readability without impacting the overall look and feel of the colour scheme and design. 
-- Hex codes for colours: #c3fc95 (Light Green), #add8e6 (Light Blue), #ffffff (White), #000000 (Black) and #FFA500 (Orange)
+  - The dark, night sky background evokes a sense of the mystical and supernatural, especially when juxtaposed with the images of the fortune teller and they crystal ball. 
+  - The lighter shades of the buttons, text input box, error messages, fonts and imagery create contrast and improve visibility
+  - the colours chosen for the elements are bright and fun
+  - Opaity is intorduced to the background of the answer and horroscope text to improve readability without impacting the overall look and feel of the colour scheme and design. 
+<!-- - Hex codes for colours: #c3fc95 (Light Green), #add8e6 (Light Blue), #ffffff (White), #000000 (Black) and #FFA500 (Orange) -->
 
 ### Backgrounds
- - The website uses cartoony style space backgrounds throughout to appeal to children and get them excited about the quiz
- - There are three different backgrounds in use for varying screen sizes
+  - The background of the night sky is uniform across it's area (without significant pattern) and is used consistently across all screen sizes. 
 
 ### Typography
-- The website has imported IBM Plex Serif and Lora into the HTMLS file from Google Fonts
-- The fonts are complimentary and easy for the user to read while in keeping with the overall look and feel of the website
-- The fallback font family is serif in both cases 
+  - The website has imported IBM Plex Serif and Lora into the HTMLS file from Google Fonts
+  - The fonts are complimentary and easy for the user to read while in keeping with the overall look and feel of the website
+  - The fallback font family is serif in both cases 
 
 
 
 ## Features 
-- __Header__
-    ![Header](assets/images/header_ss.JPG)
+  ### Header
+![Header](assets/images/header_ss.JPG)
+
   - The header for this game is very simple comprising the game title, 'The Obfuscating Oracle' and the 'How to Play' button clearly highlighted in a bright shade of purple. 
 
-  __How to Play__
-    ![rules](assets/images/rules.JPG)
+### How to Play
+![rules](assets/images/rules.JPG)
    
   - From the landing page, the game rules may be obvious as the user is prompted to ask a question by typing in the text input field. However, the user may wish to gain a fuller understanding of the game play and click on 'How to Play' botton. 
   - On the 'How to Play' page the rules and steps of the games are concisely and clearly explained in 5 simple list items. 
   - On this page the 'How to Play' button is switched out for the 'Play Now' button, allowing the user to easliy navigate back to the game. 
-  - This is the main section of the website which includes the game UI. It is responsive and includes the begin quiz, how to play and contact buttons
+  
   
 
-- __Gameplay Area__
+### Gameplay Area
 
-  - As you enter the website, you are greeted with the quiz title and welcome text. This provides a quick overview of the theme of the quiz
-  - The text has been written to appeal to children and is light hearted
-  - The font styling has also been specifically chosen to appeal to children
-  - The purpose of this section is to allow the user to navigate the game options easily across all devices without having to click through too many pages to get to their desired destination
+![Main gameplay area](assets/images/gameplay-area.JPG)
 
+  - The main area of the game is located in the centre of the homepage. It comprises images of the fortune teller, the crystal ball and the question input field where the user is prompted to ask three questions. 
+  - The images provide a sense of what the game is about, fortune telling, predictions in a fun game
+  - The user knows immediately what they should do, i.e. ask a question and click 'ASK'.
+ 
 
-  ![Title and Welcome Text](docs/feature-screenshots/title-and-welcome-text.png)
+### Ask the Oracle
 
-- __Begin Quiz Button__
+  - The user types their question to the Oracle and clicks the 'Ask' button. 
+  - The Oracle's answer will then be revealed in the crystal ball. 
+  - The question field resets, the 'Questions Remaining' counter reduces by one and the user is prompted to ask their next question. 
+
+  ![stage 2 game](assets/images/stage_2_game.JPG)
+
+  - The user then asks two more questions of the Oracle.
+  - if the user does not follow the rules of the game, they will be shown an error, either for not asking a proper question (with a question mark!) or if they ask the same question twice. 
+
+  [errors](assets/images/errors.JPG)
 
   - The begin quiz button is the first button you see on the game menu and is in a prominent green colour to stand out
   - Once the user clicks the begin quiz button, this will take them to the questions and answers page to play the quiz
