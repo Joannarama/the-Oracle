@@ -11,6 +11,8 @@
 body {
     background:  url(../images/background-image.JPG) no-repeat center;
     background-size: cover;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;    
 
 }
 
