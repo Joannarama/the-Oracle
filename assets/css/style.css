@@ -7,9 +7,6 @@
     border: none;
 }    
 
-html, body {
-    height: 100%;
-}
 
 body {
     background:  url(../images/background-image.JPG) no-repeat center;
