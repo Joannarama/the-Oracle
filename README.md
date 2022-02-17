@@ -4,6 +4,7 @@ The Obfuscating Oracle is a fun interactive online game where the user poses 'cl
 
 To play the game, the user asks three questions and recieves their answers. Once the three questions have been asked, the user has the option to reveal their horoscope message from the Oracle. 
 
+The inspiration for the game comes from a number of areas 
 This is a fun, light-hearted interactive game for users of all ages intended to amuse and entertain a general audience. 
 
 
