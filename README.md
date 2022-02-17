@@ -1,10 +1,11 @@
-# PP2 - JavaScript Essentials - The Obfuscating Oracle
+# Project Portfolio 2 - JavaScript Essentials submission - The Obfuscating Oracle
 
 The Obfuscating Oracle is a fun interactive online game where the user poses 'closed' or Yes/No questions to 'The Oracle' who returns her sage, if sometimes silly, wisdom and future predictions via her crystal ball. 
 
 To play the game, the user asks three questions and recieves their answers. Once the three questions have been asked, the user has the option to reveal their horoscope message from the Oracle. 
 
-The inspiration for the game comes from a number of areas 
+The inspiration for the game comes from a number of areas including a childhood favourite game of the developer, the Magic 8 Ball and also the fortune telling machine, Zoltar, from the 1980's hit movie 'Big', starring Tom Hanks. 
+
 This is a fun, light-hearted interactive game for users of all ages intended to amuse and entertain a general audience. 
 
 
@@ -37,16 +38,17 @@ This is a fun, light-hearted interactive game for users of all ages intended to 
 
 
 - [Technologies used](#technologies-used)
-  - [languages](#languages-used)
+  - [Languages](#languages-used)
   - [Frameworks](#frameworks-libraries-and-programs-used)
 
 - [Code testing](#code-testing)
   - [HTML](#html-testing)
   - [CSS](#css-testing)
   - [JS](#javascript-testing)
+  - [Lighthouse](#Lighthouse)
 
 - [Browser and device testing](#browser-and-device-testing)
-  - [responsiveness](#testing-responsiveness)
+  - [Responsiveness](#testing-responsiveness)
 
 
 - [Deployment](#deployment)
@@ -90,7 +92,7 @@ __Website Owner Goals__
   - The lighter shades of the buttons, text input box, error messages, fonts and imagery create contrast and improve visibility
   - the colours chosen for the elements are bright and fun
   - Opaity is intorduced to the background of the answer and horroscope text to improve readability without impacting the overall look and feel of the colour scheme and design. 
-<!-- - Hex codes for colours: #c3fc95 (Light Green), #add8e6 (Light Blue), #ffffff (White), #000000 (Black) and #FFA500 (Orange) -->
+
 
 ### Backgrounds
   - The background of the night sky is uniform across it's area (without significant pattern) and is used consistently across all screen sizes. 
@@ -122,7 +124,7 @@ __Website Owner Goals__
 
   - The main area of the game is located in the centre of the homepage. It comprises images of the fortune teller, the crystal ball and the question input field where the user is prompted to ask three questions. 
   - The images provide a sense of what the game is about, fortune telling, predictions in a fun game
-  - The user knows immediately what they should do, i.e. ask a question and click 'ASK'.
+  - The user knows immediately what they should do, i.e. ask a question and click 'Ask'.
  
 
 ### Ask the Oracle
@@ -158,8 +160,11 @@ __Website Owner Goals__
   - A favicon was generated for the page tab as a visual representation and reminder of the game to the user. 
 
 
-  ### Future Development
-<!-- any thoughts  -->
+### Future Development
+Future development may inculde updates to the graphics as they are quite basic for the purposes of this project, rhw focus being mainly on the execution of the Javascript.
+
+I would consider adding a more 'mystical' rendering of the answers in the crystal ball using perhaps a smoke effect similar to that outlined in the following:
+- [css smoke effect](https://segmentfault.com/a/1190000041189786/en)
 
 ## Technologies Used
 ### Languages Used
@@ -204,6 +209,21 @@ __Website Owner Goals__
 
   The most complex function has a cyclomatic complexity value of 7 while the median is 1.5.
 
+### Lighthouse
+
+The website was run through Lighthouse in Google Chrome Dev tools. The results report suggested improvements in the following areas
+
+  1. Contrast of text on buttons was poor. I updated this to #ffffff and this fixed the issue.
+  2. The background image did not render to max-height on iphone. I reasearched this issue and found a fix here:
+    [iphone 100% viewport fix](https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/)
+    Based on this fix, I added the following code to the body in the css file to resovlve the issue:
+
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+
+  These updates improved the parameter results of the Lighthouse report and returned the following
+
+  ![lighthouse](assets/images/lighthouse.JPG)
 
 
 
@@ -242,6 +262,19 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
 
 ![deployment](assets/images/deployment.JPG)
 
+
+## Cloning
+ 1. Navigate to repo: https://joannarama.github.io/the-Oracle/ 
+ 2. Click on the 'Code' button
+ 3. Copy the repository url
+ 4. Navigate to your personal GitHub page
+ 5. Click on the 'Repositories' link at the top of the page
+ 6. Click on the 'New' button
+ 7. Click on 'Import a repository' at the top of the page
+ 8. Paste the repository url from above
+ 9. Name your new repository
+ 10. Click 'Begin Import'
+
 ## Credits 
 ### Content
 1. Horoscopes: Horoscopes are modivied versions of horoscopes found on [horoscopes](https://www.ganeshaspeaks.com/horoscopes/daily-horoscope/)
@@ -260,3 +293,7 @@ This image has been modified using Photoshop
 3. [the net ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) Modern JavaScript Tutorials 1-6.
 
 ### Acknowledgments
+- Kasia Bogucka, Code Institute Cohort Facilitator for encouragement, support guidance and practical support
+- MSLETB for the opportunity of learning to code
+- The Code Institute Slack community for providing coding solutions to all my coding problems!
+- Shaun from the Net Ninja, who made sense of JavaScript for me when I was very, very lost!!!
