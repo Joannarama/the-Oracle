@@ -23,29 +23,39 @@ This is a fun, light-hearted interactive game for users of all ages intended to 
 
 - [Design](#design)
   - [Colour Scheme](#colour-scheme)
+  - [Backgrounds](#backgrounds)
   - [Typography](#typography)
-  - [Wireframes](#wireframes)
 
 - [Features](#features)
+  - [Header](#header)
+  - [How to play](#how-to-play)
+  - [Gameplay](#gameplay-area)
+  - [Ask the Oracle](#ask-the-oracle)
+  - [Horoscope button](#horoscope-button)
+  - [Favicon](#favicon)
 
-- [Technologies Used](#technologies-used)
-  - [Languages Used](#languages-used)
-  - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
 
-- [Testing](#testing)
-  - [Browser and Device Testing](#browser-and-device-testing)
-  - [W3C and JSHint Validators](#w3c-and-jshint-validators)
-  - [Colour Contrast Checks](#colour-contrast-checks)
-  - [Lighthouse Tool](#lighthouse-tool)
-  - [Solved Bugs](#solved-bugs)
-  - [Known Bugs](#known-bugs)
+- [Technologies used](#technologies-used)
+  - [languages](#languages-used)
+  - [Frameworks](#frameworks-libraries-and-programs-used)
+
+- [Code testing](#code-testing)
+  - [HTML](#html-testing)
+  - [CSS](#css-testing)
+  - [JS](#javascript-testing)
+
+- [Browser and device testing](#browser-and-device-testing)
+  - [responsiveness](#testing-responsiveness)
+
 
 - [Deployment](#deployment)
 
 - [Credits](#credits)
-  - [Code](#code)
+  - [Content](#content)
   - [Media](#media)
-  - [Acknowledgments](#acknowledgments)
+  - [Resources](#resources)
+
+- [Acknowledgments](#acknowledgments)
 
 ## User Experience
 ### User Stories
@@ -165,7 +175,7 @@ __Website Owner Goals__
 
 
 ## Code Testing 
-- the website was tested iteratively throughout the build, ensuring that all navigaation, interactive elements and responsiveness were working correctly. 
+- the website has been tested iteratively throughout the build using Chrome Dev Tools, ensuring that all navigation, interactive elements and responsiveness are working as expected. 
 
 ### HTML testing
 
@@ -215,8 +225,6 @@ and on the following browsers:
 - Safari
 - Firefox
 - Microsoft Edge
-
-
 
 
 
