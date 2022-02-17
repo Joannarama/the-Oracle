@@ -161,7 +161,7 @@ __Website Owner Goals__
 
 
 ### Future Development
-Future development may inculde updates to the graphics as they are quite basic for the purposes of this project, rhw focus being mainly on the execution of the Javascript.
+Future development may inculde updates to the graphics as they are quite basic for the purposes of this project, the focus being mainly on the execution of the Javascript.
 
 I would consider adding a more 'mystical' rendering of the answers in the crystal ball using perhaps a smoke effect similar to that outlined in the following:
 - [css smoke effect](https://segmentfault.com/a/1190000041189786/en)
@@ -191,7 +191,7 @@ I would consider adding a more 'mystical' rendering of the answers in the crysta
 
 ### CSS testing
 
-- The CSS code was tested useing the W£ code validator for CSS found at https://jigsaw.w3.org/css-validator/. No errors were found. 
+- The CSS code was tested useing the W3 code validator for CSS found at https://jigsaw.w3.org/css-validator/. No errors were found. 
 
 ![css testing](assets/images/W3_css.JPG)
 
@@ -277,7 +277,7 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
 
 ## Credits 
 ### Content
-1. Horoscopes: Horoscopes are modivied versions of horoscopes found on [horoscopes](https://www.ganeshaspeaks.com/horoscopes/daily-horoscope/)
+1. Horoscopes: Horoscopes are modified versions of horoscopes found on [horoscopes](https://www.ganeshaspeaks.com/horoscopes/daily-horoscope/)
 2. Crystal Ball answers: The crystal ball answers are based on widely used, standard '8-ball' answers, with some modification.
 
 
@@ -293,7 +293,7 @@ This image has been modified using Photoshop
 3. [the net ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) Modern JavaScript Tutorials 1-6.
 
 ### Acknowledgments
-- Kasia Bogucka, Code Institute Cohort Facilitator for encouragement, support guidance and practical support
-- MSLETB for the opportunity of learning to code
+- Kasia Bogucka, Code Institute Cohort Facilitator for encouragement, guidance and practical support.
+- MSLETB for the opportunity of learning to code.
 - The Code Institute Slack community for providing coding solutions to all my coding problems!
 - Shaun from the Net Ninja, who made sense of JavaScript for me when I was very, very lost!!!

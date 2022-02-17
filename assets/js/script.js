@@ -127,12 +127,12 @@ horoscope.addEventListener('click', function() {
 
 });
 
-
+// button event listener to reset the game
 startOver.addEventListener('click', function() {
   resetGame();
 });
 
-
+// reset game to start point
 function resetGame() {
   questionContainer = [];
   updateRemainingQuestions();
@@ -145,6 +145,7 @@ function resetGame() {
   numberOfQuestions.innerHtml = 'three';
 }
 
+// function to update features tracking how many questions remain
 function updateRemainingQuestions() {
   let totalRemaining = 3 - questionContainer.length;
   totalLeft.innerText = totalRemaining;
@@ -164,6 +165,7 @@ function updateRemainingQuestions() {
   }
 }
 
+// function to generate random number to select message indexes from message arrays
 function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
