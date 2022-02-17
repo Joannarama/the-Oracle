@@ -1,7 +1,6 @@
 # PP2 - JavaScript Essentials - The Obfuscating Oracle
 
-The Obfuscating Oracle is a fun interactive online game where the user poses questions to 'The Oracle' who returns her sage
-wisdom and future predictions via her crystal ball. 
+The Obfuscating Oracle is a fun interactive online game where the user poses 'closed' or Yes/No questions to 'The Oracle' who returns her sage, if sometimes silly, wisdom and future predictions via her crystal ball. 
 
 To play the game, the user asks three questions and recieves their answers. Once the three questions have been asked, the user has the option to reveal their horoscope message from the Oracle. 
 
@@ -90,10 +89,10 @@ __Website Owner Goals__
   - The fonts are complimentary and easy for the user to read while in keeping with the overall look and feel of the website
   - The fallback font family is serif in both cases 
 
-
+![fonts](assets/images/fonts.JPG)
 
 ## Features 
-  ### Header
+### Header
 ![Header](assets/images/header_ss.JPG)
 
   - The header for this game is very simple comprising the game title, 'The Obfuscating Oracle' and the 'How to Play' button clearly highlighted in a bright shade of purple. 
@@ -102,7 +101,7 @@ __Website Owner Goals__
 ![rules](assets/images/rules.JPG)
    
   - From the landing page, the game rules may be obvious as the user is prompted to ask a question by typing in the text input field. However, the user may wish to gain a fuller understanding of the game play and click on 'How to Play' botton. 
-  - On the 'How to Play' page the rules and steps of the games are concisely and clearly explained in 5 simple list items. 
+  - On the 'How to Play' page the rules and steps of the games are concisely and clearly explained in 6 simple list items. 
   - On this page the 'How to Play' button is switched out for the 'Play Now' button, allowing the user to easliy navigate back to the game. 
   
   
@@ -124,12 +123,12 @@ __Website Owner Goals__
   ![stage 2 game](assets/images/stage_2_game.JPG)
 
   - The user then asks two more questions of the Oracle.
-  - if the user does not follow the rules of the game, they will be shown an error, either for not asking a proper question (with a question mark!) or if they ask the same question twice. 
+  - If the user does not follow the rules of the game, they will be shown an error, either for not asking a proper question (with a question mark!) or if they ask the same question twice. 
 
   ![errors](assets/images/errors.JPG)
 
   
-### Horroscope Button
+### Horoscope Button
 
   - The Horoscope button is not available (greyed out) until the user has asked three questions. 
   ![horoscope unavailable](assets/images/horoscope_grey.JPG)
@@ -144,6 +143,10 @@ __Website Owner Goals__
 
   - When the horoscope is revealed, it marks the end of the game and the user can play again by clicking the 'Start Over' button. 
 
+### Favicon
+  - A favicon was generated for the page tab as a visual representation and reminder of the game to the user. 
+
+
   ### Future Development
 <!-- any thoughts  -->
 
@@ -157,10 +160,11 @@ __Website Owner Goals__
 - [Gitpod](https://gitpod.io/projects) - code editor for the project used to write and update the code.
 - [GitHub](https://github.com/) - used as version control software to maintain, upload and share code.
 - [Google Fonts](https://fonts.google.com/) - used to import fonts to website
-- [GoogleDev Tools](https://developer.chrome.com/docs/devtools/) - was used to help investigate issues with code and visually see what code was related to which area on the page. The console function was also used for JavaScript
+- [GoogleDev Tools](https://developer.chrome.com/docs/devtools/) - used to investigate and debug the code in the browser
+- [favicon](https://favicon.io) - used to generate the crystal ball favicon
 
 
-## Testing 
+## Code Testing 
 - the website was tested iteratively throughout the build, ensuring that all navigaation, interactive elements and responsiveness were working correctly. 
 
 ### HTML testing
@@ -192,7 +196,7 @@ __Website Owner Goals__
 
 
 
-### Browser and Device Testing
+## Browser and Device Testing
 ### Testing Responsiveness
 
 The website was built "mobile first" and Chrome developer tools were used throughout the build to test for correct rendering on multiple screen sizes.
@@ -202,7 +206,9 @@ The website is tested for correct rendering and responsiveness and to ensure tha
 - 320px
 - 375px
 - 768px
+- 920 px
 - 1140px
+- 1024px
 
 and on the following browsers:
 - Chrome
@@ -225,36 +231,23 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
   3. Under **Source**, select the branch to **main**, then click **save**.
   4. When step 3 was configured, every time I comitted and pushed code, github automatically deployed my updates to GitHub Pages. 
 
+![deployment](assets/images/deployment.JPG)
+
 ## Credits 
-## Content
-1. The question content for the quiz was sourced from a couple space related quiz websites:
-- [twinkle.co.uk](https://www.twinkl.co.uk/homework-help/science-homework-help/earth-and-space/earth-and-space-quiz-for-kids)
-- [sciencekids.co.nz](https://www.sciencekids.co.nz/quizzes/space.html)
+### Content
+1. Horoscopes: Horoscopes are modivied versions of horoscopes found on [horoscopes](https://www.ganeshaspeaks.com/horoscopes/daily-horoscope/)
+2. Crystal Ball answers: The crystal ball answers are based on widely used, standard '8-ball' answers, with some modification.
 
-2. The favicon came from [https://favicon.io/](https://favicon.io/)
-
-### Code
-1. Web Dev Simplified - the base code logic for the quiz was amended from his [YouTube](https://www.youtube.com/watch?v=riDzcEQbX6k) tutorial. The code has been extensively modified and extra features/components added to it.
-2. Florin Pop [YouTube](https://www.youtube.com/watch?v=XH5OW46yO8I) video guide. The walkthrough helped me create a modal and the code was used and modified for the project.
 
 ### Media
-1. All stock images are royalty free and taken from the following sites:
-- [Unsplash](https://unsplash.com/)
-- [Raw Pixel](https://www.rawpixel.com/)
-- [Pixabay](https://pixabay.com/)
+1. Fortune Teller image: [fortune teller](https://www.freepik.com/premium-vector/pretty-fortune-teller-looking-through-crystal-ball-vintage-style_6975238.htm#query=fortune%20teller&position=5&from_view=keyword)
+This image has been modified using Photoshop
+2. Crystal Ball image [crystal ball](https://depositphotos.com/vector-images/crystal-ball.html) This image has been modified using Photoshop
 
-Images used:
-- Background for large screens: [Fun kids space](https://www.rawpixel.com/image/3061864/free-illustration-vector-space-colorful-background-kids-school)
-- Background for medium screens: [Space Rocket Night Cartoon](https://pixabay.com/illustrations/space-rocket-night-cartoon-3262811/)
-- Background for small screens: [Spaceman Spaceship Space Astronaught](https://pixabay.com/illustrations/spaceman-spaceship-space-astronaut-4160023/)
-- Favicon: [Rocket Ship](https://pixabay.com/vectors/rocket-space-ship-space-launch-312767/)
 
 ### Resources
-1. [Stack Overflow](https://stackoverflow.com/) - this website was used to broaden my knowledge of JavaScript
-2. [CSS Tricks](https://css-tricks.com/) - this website was used to refresh on css concepts
-3. Code Institute Tutor Support - I used tutor support a couple times to help steer me in the right direction for problems I came across with my JavaScript
+1. [w3 schools](https://www.w3schools.com/)
+2. [MDN](https://developer.mozilla.org/en-US/)
+3. [the net ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) Modern JavaScript Tutorials 1-6.
 
 ### Acknowledgments
- - My mentor for their support, advice and patience when reviewing this project with me
- -  The Code Institute slack community for always being on hand to ask questions and pointing me in the right direction
- - My partner, for being so patient with me whilst creating this project and helping me test the quiz
